@@ -10,4 +10,5 @@ We have a couple of recommended pages for you to get started on, or you can look
 
 ### Table of Contents
 - [Installing Sine](src/installation.md)
+- [Uninstalling Sine](src/uninstallation.md)
 - [FAQ](src/faq.md)
