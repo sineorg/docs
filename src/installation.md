@@ -35,8 +35,9 @@ To install Sine automatically, go to the [releases page](https://github.com/Cosm
     - In the table, find ```Profile Folder``` and click ```Open Folder``` to access your current profile directory.
     - Inside the profile folder, navigate to the chrome directory (create it if it doesn’t exist).
     - Extract ```profile.zip``` from step 2 into the root of this folder.
-    - Now, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine and download ```engine.zip```.
+    - Now, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine and download ```engine.zip```, and ```locales.zip```.
     - Extract ```engine.zip``` into the newly-added JS folder (inside of your chrome folder).
+    - Extract ```locales.zip``` into the chrome folder.
 
 5. **Clear your browser’s startup cache:**
     - Return to ```about:support``` in your browser.
