@@ -24,7 +24,7 @@ To install Sine automatically, go to the [releases page](https://github.com/Cosm
 > Please note that this guide only works on Sine v2.3 and above.
 
 1. **Locate your browser's installation directory:**
-    - Find the folder where your browser is installed on your system (e.g., C:\Program Files\{browser_name}\ on Windows).
+    - Find the folder where your browser is installed on your system (e.g., C:\\Program Files\\{browser_name}\\ on Windows).
 
 2. **Set up Sine's bootloader:**
     - Download ```program.zip``` and ```profile.zip``` from the [releases page](https://github.com/sineorg/bootloader/releases/) of the bootloader's repository. Ensure that whichever release you choose to download it from, that it supports the Sine version you're trying to download (listed at the top of the release description).
