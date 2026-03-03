@@ -24,23 +24,22 @@ To install Sine automatically, go to the [releases page](https://github.com/Cosm
 > Please note that this guide only works on Sine v2.3 and above.
 
 1. **Locate your browser's installation directory:**
-    - Find the folder where your browser is installed on your system (e.g., ```C:\Program Files\{browser_name}\``` on Windows).
+    - Find the folder where your browser is installed on your system (e.g., `C:\Program Files\{browser_name}\` on Windows).
 
 2. **Set up Sine's bootloader:**
-    - Download ```program.zip``` and ```profile.zip``` from the [releases page](https://github.com/sineorg/bootloader/releases/) of the bootloader's repository. Ensure that whichever release you choose to download it from, that it supports the Sine version you're trying to download (listed at the top of the release description).
-    - Extract ```program.zip``` into the root of your browser's installation directory (merging and replacing files if required).
+    - Download `program.zip` and `profile.zip` from the [releases page](https://github.com/sineorg/bootloader/releases/) of the bootloader's repository. Ensure that whichever release you choose to download it from, that it supports the Sine version you're trying to download (listed at the top of the release description).
+    - Extract `program.zip` into the root of your browser's installation directory (merging and replacing files if required).
 
 3. **Configure your browser's profile:**
-    - Open your browser and go to ```about:support``` in the address bar.
-    - In the table, find ```Profile Folder``` and click ```Open Folder``` to access your current profile directory.
+    - Open your browser and go to `about:support` in the address bar.
+    - In the table, find `Profile Folder` and click `Open Folder` to access your current profile directory.
     - Inside the profile folder, navigate to the chrome directory (create it if it doesn’t exist).
-    - Extract ```profile.zip``` from step 2 into the root of this folder.
-    - Now, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine and download ```engine.zip``` and ```locales.zip```.
-    - Extract ```engine.zip``` into the newly-added JS folder (inside of your chrome folder).
-    - Extract ```locales.zip``` into the chrome folder.
+    - Extract `profile.zip` from step 2 into the root of this folder.
+    - Now, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine and download `engine.zip` and `locales.zip`.
+    - Extract both `engine.zip` and `locales.zip` into the chrome folder.
 
 5. **Clear your browser’s startup cache:**
-    - Return to ```about:support``` in your browser.
-    - Click the ```Clear Startup Cache``` button in the top-right corner.
+    - Return to `about:support` in your browser.
+    - Click the `Clear Startup Cache` button in the top-right corner.
 
 6. **Restart your browser:** Close and reopen the browser to apply the changes.
