@@ -19,6 +19,11 @@ To install Sine automatically, go to the [releases page](https://github.com/Cosm
   chmod +x ./sine-linux-x64
   ./sine-linux-x64
   ```
+  - **Nixos:** For nixos sine is available natively on the [zen-browser flake](https://github.com/0xc000022070/zen-browser-flake) and you can install it that way using home-manager :
+  ```nix
+  programs.zen-browser.profiles.<name>.sine.enable = true;
+  programs.zen-browser.profiles.<name>.sine.mods = []; # List of mod IDs to install from the Sine store. Falls back to the Zen theme store if unavailable in the Sine store.
+  ```
 
 ### Manual
 > Please note that this guide only works on Sine v2.3 and above.
