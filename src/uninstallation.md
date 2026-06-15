@@ -25,7 +25,6 @@ To uninstall Sine automatically, go to the [releases page](https://github.com/Co
 Once the installer is open, fill out all the details, and when it asks you if you want to install or uninstall Sine, pick uninstall.
 
 ### Manual
-> Please note that this guide only works on Sine v2.3 and above.
 
 1. **Remove Sine from your browser's installation directory:**
     - Find the folder where your browser is installed on your system (e.g., C:\Program Files\{browser_name}\ on Windows).
