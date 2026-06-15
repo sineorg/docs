@@ -6,11 +6,13 @@ There are two ways to install Sine, automatically and manually. The automatic me
 To install Sine automatically, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine, and find the version that you want to install. Then, under the assets section for that release, find the appopriate installer for your OS (Windows, Mac, and Linux) and CPU architecture (x86 and ARM). Once you've found the appropriate one, click and download it. Then, you may follow the provided guides for each operating system listed below.
 
 - **Windows:** Execute the downloaded file.
-- **Mac:** For Mac, you have to unquarantine the file, give it binary permissions, and then execute it. To do so, open the terminal in the location of the installer and then run the following commands (replace sine-osx-arm64 with sine-osx-x64 if you use x64):
+- **Mac:** For Mac, you first have to enable Full Disk Access for the terminal from your Mac settings.
+  You can do so by navigating to your Mac settings, Privacy & Security, Full Disk Access, and enabling the terminal.
+  Now you have to unquarantine the installer, give it binary permissions, and then execute it.
+  To do so, open the terminal in the location of the installer and then run the following commands (replace sine-osx-arm64 with sine-osx-x64 if you use x64):
   ```
   xattr -d com.apple.quarantine ./sine-osx-arm64
   chmod +x ./sine-osx-arm64
-  sudo codesign --force --deep --sign - sine-osx-arm64
   ./sine-osx-arm64
   ```
 
@@ -35,8 +37,8 @@ To install Sine automatically, go to the [releases page](https://github.com/Cosm
     - In the table, find `Profile Folder` and click `Open Folder` to access your current profile directory.
     - Inside the profile folder, navigate to the chrome directory (create it if it doesn’t exist).
     - Extract `profile.zip` from step 2 into the root of this folder.
-    - Now, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine and download `engine.zip` and `locales.zip`.
-    - Extract both `engine.zip` and `locales.zip` into the chrome folder.
+    - Now, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine and download `engine.zip`.
+    - Extract `engine.zip` into the chrome folder.
 
 5. **Clear your browser’s startup cache:**
     - Return to `about:support` in your browser.
