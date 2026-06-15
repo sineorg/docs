@@ -2,6 +2,10 @@
 Sine may be uninstalled using one of two ways, the auto-installer method, or manually.
 
 ### Automatic
+
+> [!NOTE]
+> This guide assumes you have installed Sine automatically before, and therefore have enabled Full Disk Access for your terminal if on macOS.
+
 To uninstall Sine automatically, go to the [releases page](https://github.com/CosmoCreeper/Sine/releases/) of Sine, and find the version that you want to uninstall (it typically doesn't matter, but just in case, match it up with your version). Then, under the assets section for that release, find the appopriate installer for your OS (Windows, Mac, and Linux) and CPU architecture (x86 and ARM). Once you've found the appropriate one, click and download it. Then, you may follow the provided guides for each operating system listed below.
 
 - **Windows:** Execute the downloaded file.
@@ -9,7 +13,6 @@ To uninstall Sine automatically, go to the [releases page](https://github.com/Co
   ```
   xattr -d com.apple.quarantine ./sine-osx-arm64
   chmod +x ./sine-osx-arm64
-  sudo codesign --force --deep --sign - sine-osx-arm64
   ./sine-osx-arm64
   ```
 
